@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url("fonts/caviar_dreams/CaviarDreams.ttf");
+}
+
+html { 
+  background: url(images/miles.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  text-align: left;
+  padding: 30px;
+}
+
+h1 {
+  font-family: "Caviar Dreams";
+  font-size: 90px;
+  margin: 0 0 18px 0;
+  color: #333;
+  text-shadow: 0.05em 0.05em #f9bb57;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #999;
+}
+
+.navigation a {
+  text-shadow: 0.05em 0.05em #fff;
+}
+
+a.music:hover {
+  color: #999;
+}
+
+a.facebook:hover {
+  color: #8b9dc3;
+}
+
+a.twitter:hover {
+  color: #55acee;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin: 0 0 55px 0;
+  padding: 0;
+  font-size: 28px;
+  font-family: "Caviar Dreams";
+}
+
+ul.navigation li {
+  margin-right: 40px;
+  display: inline-block;
+}
+
+img.miles {
+  width: 700px;
+}
